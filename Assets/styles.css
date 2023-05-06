@@ -17,6 +17,50 @@ body {
   height: 60px;
 }
 
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1e1e1e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 60px;
+}
+
+.bottom-bar p {
+  margin: 0;
+}
+
+.bottom-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-bar li {
+  margin-left: 20px;
+}
+
+.bottom-bar p {
+  margin-left: -175px;
+}
+
+.bottom-bar a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.bottom-bar a:hover {
+  color: #9f9f9f;
+}
+
 .logo {
   margin: 0;
   height: 100%;
@@ -49,6 +93,22 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 30px;
+  color: rgb(162, 162, 162);
+  text-align: center;
+}
+
+h4 {
+  font-size: 30px;
+  color: rgb(162, 162, 162);
+  text-align: center;
+}
+
+.email {
+  color: white;
+}
+
 .more-games-display {
   display: flex;
   justify-content: center;
@@ -71,6 +131,21 @@ p {
   color: azure;
 }
 
+#download-games-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(to top left, #eeff00, rgba(247, 0, 255, 0), rgb(0, 255, 30)), linear-gradient(to top right, #ff00e1, rgba(255, 153, 150, 0), rgb(0, 136, 255)) rgb(0 0 0);
+  color: white;
+  font-size: 20px;
+}
+
 .more-games-box img {
   outline: 5px solid rgb(183, 0, 255);
   width: 200px;
@@ -83,6 +158,19 @@ p {
 
 .more-games-box p {
   margin: 5px 0;
+}
+
+.description {
+  height: 325px;
+  width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(to top left, rgba(23, 83, 0, 0.432), rgba(0, 10, 75, 0.432), rgba(205, 219, 0, 0.432)), linear-gradient(to top right, rgba(0, 80, 73, 0.432), rgba(102, 3, 0, 0.432), rgba(179, 0, 179, 0.654)) rgba(0, 0, 0, 0.432);
+  text-align: center;
+  background-position: center;
+  background-position-x: center;
+  background-position-y: center;
+  position: relative;
 }
 
 
